@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Tienda de camisetas</title>
+        <title>Acme</title>
         <link rel="stylesheet" href="Assets/css/styles.css" />
     </head>
     <body>
