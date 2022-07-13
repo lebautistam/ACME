@@ -4,6 +4,7 @@ require_once 'autoload.php';
 require_once 'config/db.php';
 require_once 'config/parameters.php';
 require_once 'helpers/utils.php';
+require_once 'views/layout/header.php';
 
 
 function viewError(){
@@ -13,11 +14,7 @@ function viewError(){
 
 if (isset($_GET['controller'])){
     $nombre_controller=$_GET['controller'] . 'Controller';
-    if($nombre_controller=='driverController' || $nombre_controller=='vehicleController'){
-        require_once 'views/layout/header1.php';   
-    }else{
-        require_once 'views/layout/header.php';
-    }
+    
 }elseif(!isset($_GET['controller']) && !isset($_GET['action'])){
     $nombre_controller =controller_default;
 }else{
