@@ -38,6 +38,6 @@
                             <?php utils::deleteSession('owner'); ?>
                             <?php utils::deleteSession('errores'); ?>
                             <?php utils::deleteSession('vehicle'); ?>
-                            <input type="submit" class="btn btn-primary" value="Enviar">
+                            <input type="submit" class="btn btn-primary" id="submito" value="Enviar">
                         </div>
                     </form>

@@ -37,6 +37,6 @@
         <strong class="alert_red"><?= isset($_SESSION['driver'])? utils::mistakes($_SESSION['driver'],'ciudad'):''; ?></strong>
         <?php utils::deleteSession('owner'); ?>
         <?php utils::deleteSession('driver'); ?>
-        <input type="submit" class="btn btn-primary" value="Enviar">
+        <input type="submit" class="btn btn-primary" id="submitd" value="Enviar">
     </div>
 </form>
