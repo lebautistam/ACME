@@ -16,7 +16,9 @@ if (isset($_GET['controller'])){
     $nombre_controller=$_GET['controller'] . 'Controller';
     
 }elseif(!isset($_GET['controller']) && !isset($_GET['action'])){
-    $nombre_controller =controller_default;
+    header('Location:'.base_url.'owner/index');
+    exit();
+    // $nombre_controller =controller_default;
 }else{
     viewError();
     exit();

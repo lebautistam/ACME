@@ -119,7 +119,7 @@ class ownerController{
             }else
             {
                 $_SESSION['errores']=$errores;
-                require_once 'views/owner/register.php';
+                header('Location:'.base_url.'owner/index');
             }
         }else
         {
@@ -133,9 +133,7 @@ class ownerController{
 
        $owner=new owner();
        $owner_ide=$owner->getIdentification();
-    //    require_once 'views/vehicle/register.php';
-       var_dump($owner_ide);
-       die();
+       require_once 'views/vehicle/register.php';
          
     }
 
