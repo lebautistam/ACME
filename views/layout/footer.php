@@ -11,7 +11,7 @@
         <script type="text/javascript" src="../jquery/validateOwner.js"></script>
         <script type="text/javascript" src="../jquery/validateDriver.js"></script>
         <script type="text/javascript" src="../jquery/validateVehicle.js"></script>
-        <script type="text/javascript" src="../jquery/functions.js"></script>
+        <script type="text/javascript" src="../jquery/funtions.js"></script>
     </body>
 
 </html>
