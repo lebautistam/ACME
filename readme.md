@@ -1,3 +1,5 @@
+Plan de estudios semillero https://docs.google.com/spreadsheets/d/1G2KNQYuoMQkP6FOtlAs288Z_nr9WFv6-/edit#gid=1894197159
+
 Este proyecto realiza el registro de propietarios, conductores y sus respectivos vehículos.
 
 En la carpeta DataBase se encuentra el codigo para crear la base de datos en mysql(mariaDb).
